@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class TileHighlighter : MonoBehaviour
+public class TileSelectionDrawer : MonoBehaviour
 {
     public Tile hoverHighlightTile;
     public Tilemap hoverTilemap;
     public Tile highlightTile;
     public Tilemap highlightTilemap;
-    private Selector selector;
+    private TileSelector selector;
 
     // Start is called before the first frame update
     void Start()
     {
         GameObject selectorGameObject = GameObject.Find("ScriptRunner");
-        selector = selectorGameObject.GetComponent<Selector>();
+        selector = selectorGameObject.GetComponent<TileSelector>();
     }
 
     // Update is called once per frame

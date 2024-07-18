@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Tilemaps;
 using UnityEngine;
 
-public class Selector : MonoBehaviour
+public class TileSelector : MonoBehaviour
 {
     public Tilemap tilemap;
     public List<Vector3Int> leftSelectedTiles = new List<Vector3Int>();
@@ -46,11 +46,6 @@ public class Selector : MonoBehaviour
         if (tilemap.HasTile(cellPosition))
         {
             currentHoverTiles.Add(cellPosition);
-        }
-
-        if (currentHoverTiles.Count != 0)
-        {
-            // Debug.Log(currentHoverTiles);
         }
     }
 }

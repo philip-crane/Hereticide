@@ -11,12 +11,12 @@ public class Creature : MonoBehaviour
 
     private Vector3Int tilePosition;
 
-    private Selector selector;
+    private TileSelector tileSelector;
 
     void Start()
     {
         GameObject selectorGameObject = GameObject.Find("ScriptRunner");
-        selector = selectorGameObject.GetComponent<Selector>();
+        tileSelector = selectorGameObject.GetComponent<TileSelector>();
     }
 
     void Update()
@@ -25,7 +25,7 @@ public class Creature : MonoBehaviour
         tilePosition = tilemap.WorldToCell(this.transform.position);
 
         // Check selection
-        foreach (var tile in selector.leftSelectedTiles) {
+        foreach (var tile in tileSelector.leftSelectedTiles) {
             this.isSelected = tilePosition == tile; // tilepos == tile is an expression that returns true or false (if selected or now), which is then assigned to isSelected
         }
 

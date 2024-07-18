@@ -64,10 +64,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Selector.cs" />
+    <Compile Include="Assets\OccupationManager.cs" />
+    <Compile Include="Assets\TileSelector.cs" />
     <Compile Include="Assets\TileSelectionDrawer.cs" />
+    <Compile Include="Assets\CreatureMover.cs" />
     <Compile Include="Assets\Creature.cs" />
-    <Compile Include="Assets\Mover.cs" />
+    <Compile Include="Assets\Pathfinder.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
