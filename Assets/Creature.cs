@@ -6,9 +6,10 @@ using UnityEngine;
 public class Creature : MonoBehaviour
 {
     public Tilemap tilemap;
-    public bool isControllable;
     public bool isSelected;
-
+    public int corpus;
+    public int vigor;
+    public int dexterity;
     private Vector3Int tilePosition;
 
     private TileSelector tileSelector;
