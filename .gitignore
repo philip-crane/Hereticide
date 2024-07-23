@@ -99,9 +99,6 @@ Packages/*
 # Collaborate
 .collabignore
 
-# Uncomment this line if you wish to ignore the asset store tools for unity 2020 and newer
-# Assets/AssetStoreTools*
-
 # Ignore JetBrains Rider project files
 .idea/
 *.sln.iml
