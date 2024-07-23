@@ -105,3 +105,6 @@ Packages/*
 # Ignore JetBrains Rider project files
 .idea/
 *.sln.iml
+
+# Ignore specific problematic file
+Library/PackageCache/com.unity.burst@*/.Runtime/libburst-llvm-*.dylib
