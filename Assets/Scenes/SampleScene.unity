@@ -1644,6 +1644,10 @@ PrefabInstance:
       propertyPath: tilemap
       value: 
       objectReference: {fileID: 483975059}
+    - target: {fileID: 3610341731698490025, guid: 871abaf65f9c3014c8f7be33acf76507, type: 3}
+      propertyPath: dexterity
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6457358556647506481, guid: 871abaf65f9c3014c8f7be33acf76507, type: 3}
       propertyPath: m_Name
       value: enemy
