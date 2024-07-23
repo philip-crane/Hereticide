@@ -9,6 +9,8 @@ public class OccupationManager : MonoBehaviour
     public Tilemap tilemap;
     public Dictionary<Vector3Int, GameObject> occupiedTiles = new Dictionary<Vector3Int, GameObject>();
 
+    public GameObject[] placeableObjects;
+
     void Start()
     {
     }
@@ -18,10 +20,10 @@ public class OccupationManager : MonoBehaviour
         GameObject[] creatureObjects = GameObject.FindGameObjectsWithTag("Creature");
         GameObject[] breakableObjects = GameObject.FindGameObjectsWithTag("Breakable");
         GameObject[] unbreakableObjects = GameObject.FindGameObjectsWithTag("Unbreakable");
-        GameObject[] placeableObjects = creatureObjects.Concat(breakableObjects).Concat(unbreakableObjects).ToArray();
+        placeableObjects = creatureObjects.Concat(breakableObjects).Concat(unbreakableObjects).ToArray();
  
         occupiedTiles.Clear();
-        foreach (var obj in placeableObjects) {
+        foreach (GameObject obj in placeableObjects) {
             Vector3 objectPosition = obj.transform.position;
             Vector3Int objectTilePosition = tilemap.WorldToCell(objectPosition);
             occupiedTiles[objectTilePosition] = obj;

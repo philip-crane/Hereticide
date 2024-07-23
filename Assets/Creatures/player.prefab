@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8368589342899536339}
   m_Layer: 0
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Creature
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,5 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 0}
-  isControllable: 0
   isSelected: 0
+  corpus: 0
+  vigor: 0
+  dexterity: 0

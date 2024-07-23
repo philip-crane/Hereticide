@@ -6,20 +6,19 @@ using System.Linq;
 
 public class CreatureMover : MonoBehaviour
 {
+    public float animationSpeed = 5f;
     public Tilemap tilemap;
     private PathfinderGPT pathfinder;
-    private List<Creature> allSelectedCreatures = new List<Creature>();
-    private Creature selectedCreature;
-    private GameObject[] placableObjects;
+    public Creature selectedCreature;
+    public GameObject[] creatureObjects;
     private TileSelector tileSelector;
     private OccupationManager occupationManager;
-    public float animationSpeed = 5f;
 
     void Start()
     {
         GameObject scriptRunnerGameObject = GameObject.Find("ScriptRunner");
         tileSelector = scriptRunnerGameObject.GetComponent<TileSelector>();
-        placableObjects = GameObject.FindGameObjectsWithTag("Creature");
+        creatureObjects = GameObject.FindGameObjectsWithTag("Creature");
         occupationManager = scriptRunnerGameObject.GetComponent<OccupationManager>();
         pathfinder = scriptRunnerGameObject.GetComponent<PathfinderGPT>();
     }
@@ -28,9 +27,9 @@ public class CreatureMover : MonoBehaviour
     {
         // Find selected creature
         selectedCreature = null;
-        foreach (GameObject obj in placableObjects)
+        foreach (GameObject creatureObject in creatureObjects)
         {
-            Creature creature = obj.GetComponent<Creature>();
+            Creature creature = creatureObject.GetComponent<Creature>();
             if (creature.isSelected)
             {
                 selectedCreature = creature;
