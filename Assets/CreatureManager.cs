@@ -4,7 +4,7 @@ using UnityEngine.Tilemaps;
 using UnityEngine;
 using System.Linq;
 
-public class CreatureMover : MonoBehaviour
+public class CreatureManager : MonoBehaviour
 {
     public float animationSpeed = 5f;
     public Tilemap tilemap;
@@ -45,14 +45,15 @@ public class CreatureMover : MonoBehaviour
             Vector3Int startTile = tilemap.WorldToCell(selectedCreature.transform.position);
             Dictionary<Vector3Int, int> reachableTiles = pathfinder.GetReachableTiles(startTile, selectedCreature.dexterity);
 
-            if (!reachableTiles.ContainsKey(targetTile)) // Could've been a list rather than dictionary. Too bad!
-            {
-                Debug.Log("Target tile is out of range.");
-                continue;
-            }
 
             if (!occupationManager.occupiedTiles.ContainsKey(targetTile))
             {
+                if (!reachableTiles.ContainsKey(targetTile)) // Could've been a list rather than dictionary. Too bad!
+                {
+                    Debug.Log("Target tile is out of range.");
+                    continue;
+                }
+
                 List<Vector3Int> path = pathfinder.FindPath(startTile, targetTile);
                 if (path.Count > 0)
                 {
@@ -62,15 +63,14 @@ public class CreatureMover : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("No path found");
+                    // Debug.Log("No path found");
                 }
             }
             else
             {
-                Debug.Log("Occupied");
+                // Debug.Log("Occupied");
             }
         }
-        tileSelector.rightSelectedTiles.Clear();
     }
 
     private IEnumerator MoveAlongPath(Creature creature, List<Vector3Int> path)

@@ -41202,8 +41202,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3120985,
       "PayloadLength": 37281,
+=======
+      "PayloadOffset": 3121985,
+      "PayloadLength": 37280,
+>>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -41215,7 +41220,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3158353,
+=======
+      "PayloadOffset": 3159352,
+>>>>>>> Stashed changes
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -41493,7 +41502,7 @@
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
         "Assets/AttackManager.cs",
         "Assets/Creature.cs",
-        "Assets/CreatureMoverGPT.cs",
+        "Assets/CreatureManager.cs",
         "Assets/OccupationManager.cs",
         "Assets/PathfinderGPT.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
@@ -41892,7 +41901,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3158449,
+=======
+      "PayloadOffset": 3159448,
+>>>>>>> Stashed changes
       "PayloadLength": 12084,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -42199,7 +42212,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp",
       "DisplayName": "Writing 4747638433968585886.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3170622,
+=======
+      "PayloadOffset": 3171621,
+>>>>>>> Stashed changes
       "PayloadLength": 44930,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -42594,7 +42611,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/13686715218353603589.rsp",
       "DisplayName": "Writing 13686715218353603589.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3215642,
+=======
+      "PayloadOffset": 3216641,
+>>>>>>> Stashed changes
       "PayloadLength": 29915,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -43572,7 +43593,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12812556936427222528.rsp",
       "DisplayName": "Writing 12812556936427222528.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3245647,
+=======
+      "PayloadOffset": 3246646,
+>>>>>>> Stashed changes
       "PayloadLength": 31181,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -44680,7 +44705,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12697856024727907050.rsp",
       "DisplayName": "Writing 12697856024727907050.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3276918,
+=======
+      "PayloadOffset": 3277917,
+>>>>>>> Stashed changes
       "PayloadLength": 31192,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -45790,7 +45819,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3410860103080533286.rsp",
       "DisplayName": "Writing 3410860103080533286.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3308199,
+=======
+      "PayloadOffset": 3309198,
+>>>>>>> Stashed changes
       "PayloadLength": 29951,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -46900,7 +46933,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3648465134513896125.rsp",
       "DisplayName": "Writing 3648465134513896125.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3338239,
+=======
+      "PayloadOffset": 3339238,
+>>>>>>> Stashed changes
       "PayloadLength": 31187,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -48010,7 +48047,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5806762800881712256.rsp",
       "DisplayName": "Writing 5806762800881712256.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3369515,
+=======
+      "PayloadOffset": 3370514,
+>>>>>>> Stashed changes
       "PayloadLength": 31188,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -49120,7 +49161,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10654656162358534522.rsp",
       "DisplayName": "Writing 10654656162358534522.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3400793,
+=======
+      "PayloadOffset": 3401792,
+>>>>>>> Stashed changes
       "PayloadLength": 29940,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -50230,7 +50275,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/1418726328684876121.rsp",
       "DisplayName": "Writing 1418726328684876121.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3430822,
+=======
+      "PayloadOffset": 3431821,
+>>>>>>> Stashed changes
       "PayloadLength": 28896,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -51340,7 +51389,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11344994280883157806.rsp",
       "DisplayName": "Writing 11344994280883157806.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3459808,
+=======
+      "PayloadOffset": 3460807,
+>>>>>>> Stashed changes
       "PayloadLength": 29950,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -52450,7 +52503,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5916180605834378387.rsp",
       "DisplayName": "Writing 5916180605834378387.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3489847,
+=======
+      "PayloadOffset": 3490846,
+>>>>>>> Stashed changes
       "PayloadLength": 29934,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -53560,7 +53617,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/9111662996337956171.rsp",
       "DisplayName": "Writing 9111662996337956171.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3519870,
+=======
+      "PayloadOffset": 3520869,
+>>>>>>> Stashed changes
       "PayloadLength": 30286,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -54670,7 +54731,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/4014436084419441659.rsp",
       "DisplayName": "Writing 4014436084419441659.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3550245,
+=======
+      "PayloadOffset": 3551244,
+>>>>>>> Stashed changes
       "PayloadLength": 29989,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -55780,7 +55845,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/9870516708743257357.rsp",
       "DisplayName": "Writing 9870516708743257357.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3580323,
+=======
+      "PayloadOffset": 3581322,
+>>>>>>> Stashed changes
       "PayloadLength": 29957,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -56890,7 +56959,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/18218310762646611085.rsp",
       "DisplayName": "Writing 18218310762646611085.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3610370,
+=======
+      "PayloadOffset": 3611369,
+>>>>>>> Stashed changes
       "PayloadLength": 29969,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -58000,7 +58073,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5803490648119114145.rsp",
       "DisplayName": "Writing 5803490648119114145.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3640428,
+=======
+      "PayloadOffset": 3641427,
+>>>>>>> Stashed changes
       "PayloadLength": 29956,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -59110,7 +59187,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/15394042617203071315.rsp",
       "DisplayName": "Writing 15394042617203071315.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3670474,
+=======
+      "PayloadOffset": 3671473,
+>>>>>>> Stashed changes
       "PayloadLength": 31186,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -60220,7 +60301,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/9675442845102135732.rsp",
       "DisplayName": "Writing 9675442845102135732.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3701749,
+=======
+      "PayloadOffset": 3702748,
+>>>>>>> Stashed changes
       "PayloadLength": 31192,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -61330,7 +61415,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5546506141355401238.rsp",
       "DisplayName": "Writing 5546506141355401238.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3733030,
+=======
+      "PayloadOffset": 3734029,
+>>>>>>> Stashed changes
       "PayloadLength": 29964,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -62440,7 +62529,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8899139255040401798.rsp",
       "DisplayName": "Writing 8899139255040401798.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3763083,
+=======
+      "PayloadOffset": 3764082,
+>>>>>>> Stashed changes
       "PayloadLength": 29956,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -63550,7 +63643,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10571807241835812913.rsp",
       "DisplayName": "Writing 10571807241835812913.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3793129,
+=======
+      "PayloadOffset": 3794128,
+>>>>>>> Stashed changes
       "PayloadLength": 30020,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -64660,7 +64757,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/2499735490941455596.rsp",
       "DisplayName": "Writing 2499735490941455596.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3823238,
+=======
+      "PayloadOffset": 3824237,
+>>>>>>> Stashed changes
       "PayloadLength": 31227,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -65772,7 +65873,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5521740788080646575.rsp",
       "DisplayName": "Writing 5521740788080646575.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3854554,
+=======
+      "PayloadOffset": 3855553,
+>>>>>>> Stashed changes
       "PayloadLength": 31365,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -66888,7 +66993,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3258459190130463912.rsp",
       "DisplayName": "Writing 3258459190130463912.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3886008,
+=======
+      "PayloadOffset": 3887007,
+>>>>>>> Stashed changes
       "PayloadLength": 29999,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -68000,7 +68109,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/7038082120299526273.rsp",
       "DisplayName": "Writing 7038082120299526273.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3916096,
+=======
+      "PayloadOffset": 3917095,
+>>>>>>> Stashed changes
       "PayloadLength": 30011,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -69112,7 +69225,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/16942202937359522267.rsp",
       "DisplayName": "Writing 16942202937359522267.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3946197,
+=======
+      "PayloadOffset": 3947196,
+>>>>>>> Stashed changes
       "PayloadLength": 31325,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -70226,7 +70343,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12248871281822510316.rsp",
       "DisplayName": "Writing 12248871281822510316.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 3977612,
+=======
+      "PayloadOffset": 3978611,
+>>>>>>> Stashed changes
       "PayloadLength": 31236,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -71338,7 +71459,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3938377011463375229.rsp",
       "DisplayName": "Writing 3938377011463375229.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4008937,
+=======
+      "PayloadOffset": 4009936,
+>>>>>>> Stashed changes
       "PayloadLength": 31254,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -72450,7 +72575,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/2157608619508796868.rsp",
       "DisplayName": "Writing 2157608619508796868.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4040280,
+=======
+      "PayloadOffset": 4041279,
+>>>>>>> Stashed changes
       "PayloadLength": 30046,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -73564,7 +73693,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11295897478892413411.rsp",
       "DisplayName": "Writing 11295897478892413411.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4070416,
+=======
+      "PayloadOffset": 4071415,
+>>>>>>> Stashed changes
       "PayloadLength": 31262,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -74676,7 +74809,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/14814235663552238418.rsp",
       "DisplayName": "Writing 14814235663552238418.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4101768,
+=======
+      "PayloadOffset": 4102767,
+>>>>>>> Stashed changes
       "PayloadLength": 31248,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -75788,7 +75925,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/17525389461119239690.rsp",
       "DisplayName": "Writing 17525389461119239690.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4133106,
+=======
+      "PayloadOffset": 4134105,
+>>>>>>> Stashed changes
       "PayloadLength": 30037,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -76900,7 +77041,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/9703144790800738880.rsp",
       "DisplayName": "Writing 9703144790800738880.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4163232,
+=======
+      "PayloadOffset": 4164231,
+>>>>>>> Stashed changes
       "PayloadLength": 31339,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -78014,7 +78159,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/15085861467720516389.rsp",
       "DisplayName": "Writing 15085861467720516389.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4194661,
+=======
+      "PayloadOffset": 4195660,
+>>>>>>> Stashed changes
       "PayloadLength": 30039,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -79126,7 +79275,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10292501669419677951.rsp",
       "DisplayName": "Writing 10292501669419677951.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4224790,
+=======
+      "PayloadOffset": 4225789,
+>>>>>>> Stashed changes
       "PayloadLength": 31248,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -80238,7 +80391,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/4772145154433932943.rsp",
       "DisplayName": "Writing 4772145154433932943.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4256127,
+=======
+      "PayloadOffset": 4257126,
+>>>>>>> Stashed changes
       "PayloadLength": 31267,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -81350,7 +81507,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3388064732626934676.rsp",
       "DisplayName": "Writing 3388064732626934676.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4287483,
+=======
+      "PayloadOffset": 4288482,
+>>>>>>> Stashed changes
       "PayloadLength": 31266,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -82462,7 +82623,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5249134988916615986.rsp",
       "DisplayName": "Writing 5249134988916615986.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4318838,
+=======
+      "PayloadOffset": 4319837,
+>>>>>>> Stashed changes
       "PayloadLength": 30139,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -83574,7 +83739,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11932646040550446581.rsp",
       "DisplayName": "Writing 11932646040550446581.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4349067,
+=======
+      "PayloadOffset": 4350066,
+>>>>>>> Stashed changes
       "PayloadLength": 30254,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -84694,7 +84863,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8336928665352126947.rsp",
       "DisplayName": "Writing 8336928665352126947.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4379410,
+=======
+      "PayloadOffset": 4380409,
+>>>>>>> Stashed changes
       "PayloadLength": 31428,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -85812,7 +85985,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/1410676725171572189.rsp",
       "DisplayName": "Writing 1410676725171572189.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4410927,
+=======
+      "PayloadOffset": 4411926,
+>>>>>>> Stashed changes
       "PayloadLength": 30149,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -86928,7 +87105,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/17766336155681823506.rsp",
       "DisplayName": "Writing 17766336155681823506.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4441166,
+=======
+      "PayloadOffset": 4442165,
+>>>>>>> Stashed changes
       "PayloadLength": 31316,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -88044,7 +88225,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3818794330681902346.rsp",
       "DisplayName": "Writing 3818794330681902346.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4472571,
+=======
+      "PayloadOffset": 4473570,
+>>>>>>> Stashed changes
       "PayloadLength": 31256,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -89160,7 +89345,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10010842633742469623.rsp",
       "DisplayName": "Writing 10010842633742469623.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4503917,
+=======
+      "PayloadOffset": 4504916,
+>>>>>>> Stashed changes
       "PayloadLength": 30436,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -90280,7 +90469,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6841316898876630997.rsp",
       "DisplayName": "Writing 6841316898876630997.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4534442,
+=======
+      "PayloadOffset": 4535441,
+>>>>>>> Stashed changes
       "PayloadLength": 31472,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -91400,7 +91593,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/15312589170787849123.rsp",
       "DisplayName": "Writing 15312589170787849123.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4566004,
+=======
+      "PayloadOffset": 4567003,
+>>>>>>> Stashed changes
       "PayloadLength": 31409,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -92516,7 +92713,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/4691676790321305727.rsp",
       "DisplayName": "Writing 4691676790321305727.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4597502,
+=======
+      "PayloadOffset": 4598501,
+>>>>>>> Stashed changes
       "PayloadLength": 30080,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -93630,7 +93831,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/13439087796855272166.rsp",
       "DisplayName": "Writing 13439087796855272166.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4627672,
+=======
+      "PayloadOffset": 4628671,
+>>>>>>> Stashed changes
       "PayloadLength": 31772,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -94758,7 +94963,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6210570011482043853.rsp",
       "DisplayName": "Writing 6210570011482043853.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4659533,
+=======
+      "PayloadOffset": 4660532,
+>>>>>>> Stashed changes
       "PayloadLength": 31541,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -95886,7 +96095,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/17738801749825545598.rsp",
       "DisplayName": "Writing 17738801749825545598.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4691164,
+=======
+      "PayloadOffset": 4692163,
+>>>>>>> Stashed changes
       "PayloadLength": 31535,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -97012,7 +97225,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/15183149355271759364.rsp",
       "DisplayName": "Writing 15183149355271759364.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4722789,
+=======
+      "PayloadOffset": 4723788,
+>>>>>>> Stashed changes
       "PayloadLength": 31646,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -98146,7 +98363,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/1723042715960067801.rsp",
       "DisplayName": "Writing 1723042715960067801.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4754524,
+=======
+      "PayloadOffset": 4755523,
+>>>>>>> Stashed changes
       "PayloadLength": 31565,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -99266,7 +99487,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/7759033573704817190.rsp",
       "DisplayName": "Writing 7759033573704817190.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4786178,
+=======
+      "PayloadOffset": 4787177,
+>>>>>>> Stashed changes
       "PayloadLength": 31554,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -100386,7 +100611,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6947401630772442630.rsp",
       "DisplayName": "Writing 6947401630772442630.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4817821,
+=======
+      "PayloadOffset": 4818820,
+>>>>>>> Stashed changes
       "PayloadLength": 31494,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -101522,7 +101751,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/13445476680238899994.rsp",
       "DisplayName": "Writing 13445476680238899994.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4849405,
+=======
+      "PayloadOffset": 4850404,
+>>>>>>> Stashed changes
       "PayloadLength": 31590,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -102654,7 +102887,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/7634377931854478575.rsp",
       "DisplayName": "Writing 7634377931854478575.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4881084,
+=======
+      "PayloadOffset": 4882083,
+>>>>>>> Stashed changes
       "PayloadLength": 31459,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -103792,7 +104029,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3043913547040211301.rsp",
       "DisplayName": "Writing 3043913547040211301.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4912632,
+=======
+      "PayloadOffset": 4913631,
+>>>>>>> Stashed changes
       "PayloadLength": 31768,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -104924,7 +105165,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/2240406767038398906.rsp",
       "DisplayName": "Writing 2240406767038398906.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4944489,
+=======
+      "PayloadOffset": 4945488,
+>>>>>>> Stashed changes
       "PayloadLength": 31631,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],
@@ -106046,7 +106291,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10678863128556690338.rsp",
       "DisplayName": "Writing 10678863128556690338.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 4976210,
+=======
+      "PayloadOffset": 4977209,
+>>>>>>> Stashed changes
       "PayloadLength": 32520,
       "PayloadDebugContentSnippet": "\"unity-ilpp-1087cd11716938272a",
       "Inputs": [],

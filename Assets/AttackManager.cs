@@ -7,50 +7,57 @@ using UnityEngine.Tilemaps;
 public class AttackManager : MonoBehaviour
 {
     public Tilemap tilemap;
-    private CreatureMover creatureMover;
+    
+    // Declare Imports
+    private CreatureManager creatureManager;
     private OccupationManager occupationManager;
+    private TileSelector tileSelector;
+    
+    // Vars 
     public List<GameObject> availableTargets;
+    string ability = "";
+    string previousAbility;
+    bool hasJustAttacked;
+    Vector3Int previousTilePosition;
 
     void Start()
     {
-
+        
     }
 
     void Update()
     {
-        GameObject scriptRunnerGameObject = GameObject.Find("ScriptRunner");
-        creatureMover = scriptRunnerGameObject.GetComponent<CreatureMover>();
-        occupationManager = scriptRunnerGameObject.GetComponent<OccupationManager>();
+        Import();
+        // Manage Select Creature
+        if (creatureManager.selectedCreature == null) { availableTargets.Clear(); return; }
+        if (creatureManager.selectedCreature.tilePosition == previousTilePosition) ability = GetAbility(ability);
+        else ability = "";
+        if (ability != previousAbility ) availableTargets = GetAvailableTargets(ability);
+        previousTilePosition = creatureManager.selectedCreature.tilePosition;
+        previousAbility = ability;
 
-        if (creatureMover.selectedCreature == null) return;
-       
-        string[] ability = new string[] {""};
+        // Execute Attack
+        foreach (Vector3Int targetTile in tileSelector.rightSelectedTiles)
+        {
+            foreach (GameObject obj in availableTargets) {
+                if (targetTile == tilemap.WorldToCell(obj.transform.position)) {
 
-        // Listen for ability input
-        if (Input.GetKeyDown(KeyCode.Alpha1)) ability[0] = "strike"; 
-        else if (Input.GetKeyDown(KeyCode.Alpha2)) ability[0] = "shoot";
-        else if (Input.GetKeyDown(KeyCode.Alpha3)) ability[0] = "grab";
-        else return;
+                    Creature targetCreature = obj.GetComponent<Creature>();
+                    // Breakable targetBreakable = obj.GetComponent<Breakable>();
+                    // Unbreakable targetUnbreakable = obj.GetComponent<Unbreakable>();
 
-        // FindAvailableTargets
-        int range = abilityTargetInfo[ability[0]].Item1;
-        string targetableObjectType = abilityTargetInfo[ability[0]].Item2;
-        availableTargets = new List<GameObject>();
-        Vector3Int attackerPosition = tilemap.WorldToCell(creatureMover.selectedCreature.transform.position);
-
-            // Get 
-        foreach (GameObject obj in occupationManager.placeableObjects) {
-            Vector3Int targetPosition = tilemap.WorldToCell(obj.transform.position);
-            
-            int distanceX = Math.Abs(attackerPosition[0] - targetPosition[0]);
-            int distanceY = Math.Abs(attackerPosition[1] - targetPosition[1]);
-            if ((distanceX > 0 || distanceY > 0) && distanceX <= range && distanceY <= range) {
-                if (obj.tag == targetableObjectType) availableTargets.Add(obj);
+                    if (ability == "strike") Strike(creatureManager.selectedCreature, targetCreature);
+                    if (ability == "shoot") Shoot(creatureManager.selectedCreature, targetCreature);
+                    // if (ability == "grab") Grab(creatureManager.selectedCreature, targetCreature);
+                    hasJustAttacked = true;
+                }
             }
         }
+        if (hasJustAttacked) {
+            tileSelector.rightSelectedTiles.Clear();
+            hasJustAttacked = false;
+        }
     }
-
-
     Dictionary<string, Tuple<int, string, string>> abilityTargetInfo = new Dictionary<string, Tuple<int, string, string>>
     {
         { "", new Tuple<int, string, string> ( 0, "", "" ) },
@@ -59,10 +66,56 @@ public class AttackManager : MonoBehaviour
         { "grab", new Tuple<int, string, string> ( 1, "Creature", "" ) }
     };
 
-    void Strike(Creature attacker, Creature defender) {
-        defender.vigor -= attacker.vigor;
+    void Import() {
+        GameObject scriptRunnerGameObject = GameObject.Find("ScriptRunner");
+        creatureManager = scriptRunnerGameObject.GetComponent<CreatureManager>();
+        occupationManager = scriptRunnerGameObject.GetComponent<OccupationManager>();
+        tileSelector = scriptRunnerGameObject.GetComponent<TileSelector>();
+        
+    }
+
+    // Attack Mechanics
+    void Strike(Creature attacker, Creature targetCreature) {
+        // defender.vigor -= attacker.vigor;
+        targetCreature.TakeDamage(attacker.vigor);
+        Debug.Log("Strike!");
     }
     void Shoot(Creature attacker, Creature defender) {
         defender.dexterity -= attacker.vigor;
+        Debug.Log("Shoot");
     }
+
+    string GetAbility(string ability) {
+        if (Input.GetKeyDown(KeyCode.Escape)) return "";
+        else if (Input.GetKeyDown(KeyCode.Alpha1)) return "strike"; 
+        else if (Input.GetKeyDown(KeyCode.Alpha2)) return "shoot";
+        else if (Input.GetKeyDown(KeyCode.Alpha3)) return "grab";
+        else return ability;
+    }
+
+    List<GameObject> GetAvailableTargets(string ability) {
+
+        availableTargets = new List<GameObject>();
+        int range = abilityTargetInfo[ability].Item1;
+        string targetableObjectType = abilityTargetInfo[ability].Item2;
+
+        Vector3Int attackerPosition = creatureManager.selectedCreature.tilePosition;
+
+        foreach (GameObject obj in occupationManager.placeableObjects) {
+            Vector3Int targetPosition = tilemap.WorldToCell(obj.transform.position);
+            int distanceX = Math.Abs(attackerPosition[0] - targetPosition[0]);
+            int distanceY = Math.Abs(attackerPosition[1] - targetPosition[1]);
+            if ((distanceX > 0 || distanceY > 0) && distanceX <= range && distanceY <= range) {
+                if (obj.tag == targetableObjectType) availableTargets.Add(obj);
+            }
+        }
+
+        return availableTargets;
+    }
+    
+
+    // If rightclick on tile that is part of availableTargets
+    // if click on self, have confirm menu; add later. for now just allow for hitting yourself lol
+    // 
+    
 }
