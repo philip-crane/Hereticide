@@ -425,6 +425,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/TileSelectionDrawer.cs"
 "Assets/TileSelector.cs"
+"Assets/UIManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
